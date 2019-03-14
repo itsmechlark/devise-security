@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "#{DEVISE_ORM}/session_history"
+require_relative "active_record/session_history"
 require 'devise-security/hooks/session_traceable'
 
 module Devise
