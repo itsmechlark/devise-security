@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require DEVISE_ORM.to_s if DEVISE_ORM.in? [:active_record, :mongoid]
+require 'active_record'
 require 'active_support/core_ext/integer'
 require 'active_support/ordered_hash'
 require 'active_support/concern'
