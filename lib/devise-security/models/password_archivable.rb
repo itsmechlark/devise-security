@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'compatibility'
-require_relative "#{DEVISE_ORM}/old_password"
+require_relative "active_record/old_password"
 
 module Devise
   module Models
